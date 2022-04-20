@@ -1,0 +1,23 @@
+{
+  "name": "aws-ping-utility",
+  "author": "Alvin Teh <i@alvinteh.me>",
+  "description": "Utility to ping all AWS regions",
+  "license": "MIT",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alvinteh/aws-ping-utility.git"
+  },
+  "keywords": [
+    "aws",
+    "ping"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-ec2": "^3.72.0",
+    "ping": "^0.4.1"
+  }
+}
